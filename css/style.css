@@ -1,0 +1,64 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#firstname{
+    min-height: 20px;
+    width: 150px;
+    color: blue;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 3px;
+    
+}
+
+#firstname:hover{
+    
+    
+    border: 2px solid blue;
+    
+}
+
+#placeholder{
+    
+    color: grey;
+    left: 5px;
+}
+
+.forms{
+    
+    background-color: aquamarine;
+    width: 30%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+input[type="submit"]{
+    
+    color: brown;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 2px;
+    
+}
+
+
+:-webkit-placeholder{}
+::-o-placeholder{}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
